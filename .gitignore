@@ -1,5 +1,10 @@
 .svn
-.log
-.toc
-.aux
-.pdf
+*.log
+*.toc
+*.aux
+*.pdf
+*.dvi
+*/*.toc
+*/*.aux
+*/*.pdf
+*/*.dvi
