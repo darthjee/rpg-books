@@ -1,0 +1,32 @@
+% Últimas modificações: 07 Mar 2003
+%\documentclass[a4paper,11pt, titlepage, openany]{book}
+\documentclass[twocolumn,a4paper,11pt, titlepage, openany]{book}
+%-----------------------------------------------------------
+% Carrega alguns pacotes.
+\usepackage[portuguese]{babel}
+\usepackage[latin1]{inputenc}
+%\usepackage{/home/darthjee/latex/package/tom}
+%\usepackage[a4paper,body={18.7cm,26.2cm},left=1.4cm,right=1.4cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage[a4paper,left=1.4cm,right=1.4cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{multicol}
+
+%-----------------------------------------------------------
+% Here we go!
+
+\begin{document}
+
+% Faça-se o título!   ;-)
+\title{Dark Pipes - Cen\'ario de Campanha}
+
+\author{Escrito por Fernando Favini}
+
+\date{Edi\c{c}\~ao de \today}
+%-----------------------------------------------------------
+
+\maketitle
+\begin{multicols}{3}
+\tableofcontents
+\end{multicols}
+\newpage
+\input{capitulos/reino.tex}
+\end{document}

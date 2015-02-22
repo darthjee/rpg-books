@@ -1,4 +1,4 @@
-BOOKS= cenario core conto
+BOOKS= cenario core conto cenario-steam
 
 ALLNEEDS= $(BOOKS) Makefile
 
